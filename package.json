@@ -1,0 +1,36 @@
+{
+  "name": "phaserboilerplate",
+  "title": "Phaser Boilerplate",
+  "version": "0.1.0",
+  "description": "The basics for starting a Phaser game quickly using ES2015.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node start-server.js",
+    "pack": "node ./node_modules/webpack/bin/webpack.js -d --progress --display-error-details",
+    "watch": "node ./node_modules/webpack/bin/webpack.js -d --progress --watch",
+    "build": "node ./node_modules/webpack/bin/webpack.js -p --progress"
+  },
+  "author": "Robbie Antenesse <gamedev@alamantus.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.17.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.16.0",
+    "css-loader": "^0.25.0",
+    "express": "^4.14.0",
+    "file-loader": "^0.9.0",
+    "html-minify-loader": "^1.1.0",
+    "img-loader": "^1.3.1",
+    "node-sass": "^3.10.1",
+    "sass-loader": "^4.0.2",
+    "script-loader": "^0.7.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.16.0",
+    "ezgui": "git+https://git@github.com/AlamantusGameDev/EZGUI.git",
+    "phaser": "^2.6.2"
+  }
+}
