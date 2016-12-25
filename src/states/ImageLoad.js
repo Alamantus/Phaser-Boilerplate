@@ -3,7 +3,7 @@ import 'p2';
 import 'phaser';
 
 // Import the images from their folder(s).
-import redSquareImagePath from '../images/ui/red-square.png';
+import redSquareImagePath from '../images/red-square.png';
 
 export class ImageLoad extends Phaser.State {
 	constructor() {

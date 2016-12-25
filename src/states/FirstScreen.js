@@ -2,7 +2,7 @@ import 'pixi.js';
 import 'p2';
 import 'phaser';
 
-export class PortraitInterface extends Phaser.State {
+export class FirstScreen extends Phaser.State {
 	constructor() {
     super();
 	}
